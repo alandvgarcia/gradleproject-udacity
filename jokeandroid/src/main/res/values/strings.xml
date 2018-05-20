@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">JokeAndroid</string>
+    <string name="button_text">Tell Joke</string>
+    <string name="instructions">Intructions</string>
 </resources>
