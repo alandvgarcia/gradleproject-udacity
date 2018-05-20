@@ -42,7 +42,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
+        new EndpointsAsyncTask().execute();
+    }
 
+    public void tellJokeBackend(){
+        new EndpointsAsyncTask().execute(this);
     }
 
 

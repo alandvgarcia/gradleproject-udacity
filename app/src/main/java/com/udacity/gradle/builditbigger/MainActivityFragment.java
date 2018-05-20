@@ -24,7 +24,7 @@ public class MainActivityFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View root = inflater.inflate(R.layout.fragment_main, container, false);
+        final View root = inflater.inflate(R.layout.fragment_main, container, false);
 
         AdView mAdView = (AdView) root.findViewById(R.id.adView);
         // Create an ad request. Check logcat output for the hashed device ID to
@@ -42,7 +42,10 @@ public class MainActivityFragment extends Fragment {
         btTellJokeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 instructions.setText(tellJoke.tellMeAJoke());
+                ((MainActivity)getActivity()).tellJokeBackend();
+
             }
         });
         return root;
