@@ -1,107 +1,25 @@
 Warning: Google App Engine Java 7 runtime is deprecated.
 Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
-May 20, 2018 7:04:23 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
-INFO: Overwriting system property key 'java.util.logging.config.file', value '/usr/lib/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/home/alan/Desktop/ud867-master/FinalProject/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
-May 20, 2018 7:04:23 AM com.google.apphosting.utils.jetty.JettyLogger info
-INFO: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
-May 20, 2018 10:04:24 AM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
-WARNING: Your working directory, (/home/alan/Desktop/ud867-master/FinalProject/backend) is not equal to your 
-web application root (/home/alan/Desktop/ud867-master/FinalProject/backend/build/exploded-backend)
+jun 03, 2018 10:07:58 PM java.util.prefs.WindowsPreferences <init>
+ADVERT?NCIA: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+jun 03, 2018 10:08:00 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFORMA??ES: Overwriting system property key 'java.util.logging.config.file', value 'C:\Users\aland\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'C:\Users\aland\Documents\gradleproject-udacity\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
+jun 03, 2018 10:08:00 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFORMA??ES: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
+jun 04, 2018 1:08:01 AM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+ADVERT?NCIA: Your working directory, (C:\Users\aland\Documents\gradleproject-udacity\backend) is not equal to your 
+web application root (C:\Users\aland\Documents\gradleproject-udacity\backend\build\exploded-backend)
 You will not be able to access files from your working directory on the production server.
 
-May 20, 2018 10:04:24 AM com.google.apphosting.utils.jetty.JettyLogger info
-INFO: jetty-6.1.x
-May 20, 2018 10:04:27 AM com.google.apphosting.utils.jetty.JettyLogger info
-INFO: Started SelectChannelConnector@localhost:8080
-May 20, 2018 10:04:27 AM com.google.appengine.tools.development.AbstractModule startup
-INFO: Module instance default is running at http://localhost:8080/
-May 20, 2018 10:04:27 AM com.google.appengine.tools.development.AbstractModule startup
-INFO: The admin console is running at http://localhost:8080/_ah/admin
-May 20, 2018 7:04:27 AM com.google.appengine.tools.development.DevAppServerImpl doStart
-INFO: Dev App Server is now running
+jun 04, 2018 1:08:01 AM com.google.apphosting.utils.jetty.JettyLogger info
+INFORMA??ES: jetty-6.1.x
+jun 04, 2018 1:08:04 AM com.google.apphosting.utils.jetty.JettyLogger info
+INFORMA??ES: Started SelectChannelConnector@localhost:8080
+jun 04, 2018 1:08:04 AM com.google.appengine.tools.development.AbstractModule startup
+INFORMA??ES: Module instance default is running at http://localhost:8080/
+jun 04, 2018 1:08:04 AM com.google.appengine.tools.development.AbstractModule startup
+INFORMA??ES: The admin console is running at http://localhost:8080/_ah/admin
+jun 03, 2018 10:08:04 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFORMA??ES: Dev App Server is now running
 1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-3 - Time is money. Therefore, ATMs are time machines.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-3 - Time is money. Therefore, ATMs are time machines.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-3 - Time is money. Therefore, ATMs are time machines.
-3 - Time is money. Therefore, ATMs are time machines.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-3 - Time is money. Therefore, ATMs are time machines.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-3 - Time is money. Therefore, ATMs are time machines.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-3 - Time is money. Therefore, ATMs are time machines.
-3 - Time is money. Therefore, ATMs are time machines.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-3 - Time is money. Therefore, ATMs are time machines.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-3 - Time is money. Therefore, ATMs are time machines.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-3 - Time is money. Therefore, ATMs are time machines.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-3 - Time is money. Therefore, ATMs are time machines.
-3 - Time is money. Therefore, ATMs are time machines.
-3 - Time is money. Therefore, ATMs are time machines.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-3 - Time is money. Therefore, ATMs are time machines.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-3 - Time is money. Therefore, ATMs are time machines.
-3 - Time is money. Therefore, ATMs are time machines.
-3 - Time is money. Therefore, ATMs are time machines.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-3 - Time is money. Therefore, ATMs are time machines.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-3 - Time is money. Therefore, ATMs are time machines.
-3 - Time is money. Therefore, ATMs are time machines.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-3 - Time is money. Therefore, ATMs are time machines.
-3 - Time is money. Therefore, ATMs are time machines.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-3 - Time is money. Therefore, ATMs are time machines.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-3 - Time is money. Therefore, ATMs are time machines.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-3 - Time is money. Therefore, ATMs are time machines.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-3 - Time is money. Therefore, ATMs are time machines.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-3 - Time is money. Therefore, ATMs are time machines.
-3 - Time is money. Therefore, ATMs are time machines.
-3 - Time is money. Therefore, ATMs are time machines.
-3 - Time is money. Therefore, ATMs are time machines.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-3 - Time is money. Therefore, ATMs are time machines.
-3 - Time is money. Therefore, ATMs are time machines.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-2 - Romantic relationships can actually be represented in algebra. You for example, have definitely at some point looked at your X and asked yourself Y.
-1 - Why are astronauts always so calm and efficient? Because Zero pressure in vacuum.
-3 - Time is money. Therefore, ATMs are time machines.
 3 - Time is money. Therefore, ATMs are time machines.

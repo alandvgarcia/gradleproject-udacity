@@ -1,7 +1,5 @@
 package com.udacity.gradle.builditbigger;
 
-
-import android.content.Intent;
 import android.support.test.filters.LargeTest;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
@@ -23,7 +21,8 @@ public class EndpointsAsyncTaskTestUnit{
     @Test
     public void teste() {
 
-        EndPointAsyncTaskTest endpointsAsyncTask = new EndPointAsyncTaskTest();
+
+        EndpointsAsyncTask endpointsAsyncTask = new EndpointsAsyncTask();
 
         Assert.assertNotEquals("error", endpointsAsyncTask.doInBackground(mActivityRule.getActivity().getApplicationContext()));
 

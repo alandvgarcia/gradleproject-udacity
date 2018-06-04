@@ -40,6 +40,8 @@ public class EndpointsAsyncTask extends AsyncTask<Context,Void, String>{
             // end options for devappserver
 
             myApiService = builder.build();
+
+
         }
 
         context = params[0];
@@ -47,7 +49,7 @@ public class EndpointsAsyncTask extends AsyncTask<Context,Void, String>{
         try {
             return myApiService.getJokeService().execute().getData();
         } catch (IOException e) {
-            return e.getMessage();
+            return "error";
         }
     }
 
